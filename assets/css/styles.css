@@ -64,12 +64,23 @@ footer {
     margin-top: 20px;
     font-size: 2em;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .foot {
     display: flex;
     list-style: none;
-    justify-content: space-around;
 }
+
+.link{
+    display: flex;
+    margin: 20px;
+}
+.link2 {
+    margin: 0px 15px;
+}
+
 .project-img {
     width: 80%;
 }
@@ -108,4 +119,9 @@ footer {
 }
 .project-img{
     padding: 20px;
+}
+.imgCar {
+    padding: 50px 150px 200px 150px;
+    height:800px;
+    object-fit: contain;
 }
