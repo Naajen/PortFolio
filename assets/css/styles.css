@@ -29,8 +29,7 @@
     text-align: start;
 }
 .hello {
-    font-size: 5em;
-    margin-bottom: 50px;   
+    font-size: 5em; 
 }
 .name {
     font-size: 8em;
@@ -80,7 +79,13 @@ footer {
 .link2 {
     margin: 0px 15px;
 }
-
+.linkRepo {
+    color:orange;
+    text-decoration: none;
+}
+.linkRepo:hover {
+    color: #e34c26;
+}
 .project-img {
     width: 80%;
 }
@@ -131,7 +136,9 @@ footer {
     border: 1px solid black;
     transform-origin: 50% 50%;
 }
- 
+ .contact {
+    color: orange;
+ }
 @-webkit-keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
